@@ -1,0 +1,63 @@
+﻿# Dependencies
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Environment Variables and Credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime Data and Temporary Files
+pids/
+*.pid
+*.seed
+*.pid.lock
+uploads/
+temp/
+tmp/
+
+# Build & Output Directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE & Editor Directories
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
